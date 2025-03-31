@@ -1,0 +1,9 @@
+{
+  "name": "GGML CUDA C++",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "mounts": [
+    "source=/home/kindroach/models,target=/models,type=bind,readonly"
+  ]
+}
